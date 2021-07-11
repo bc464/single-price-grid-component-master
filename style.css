@@ -7,12 +7,144 @@ html {
 }
 body {
 	font-family: 'Karla', sans-serif;
+	background-color: hsl(204, 43%, 93%);
+}
+.main {
+	
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	margin-left: 380px;
+	margin-right: 300px;
+	margin-top: 100px;
+	width: 600px;
+	height: 420px;
+	box-shadow: 5px 5px 60px 1px hsl(204, 43%, 93%);
+}
+.heading {
+	background-color: white;
+	padding: 30px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	width: 90%;
+	height: 140px;
+}
+h2 {
+	color: hsl(179, 62%, 43%);
+	padding-bottom: 20px;
+	font-weight: 700;
+}
+.heading h3 {
+	color: hsl(71, 73%, 54%);
+	padding-bottom: 20px;
+	font-weight: 700;
+}
+.heading p {
+	color: hsl(218, 22%, 67%);
+	line-height: 1.5;
 }
 
+.sub {
+	background-color: hsl(179, 62%, 43%);
+	border-bottom-left-radius: 6px;
+	width: 50%;
+	height: 210px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.sub p {
+	color: hsl(204, 43%, 93%);
+}
+.signUp {
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+	padding: 10px 95px;
+	border-radius: 4px;
+	border:  1px solid hsl(71, 73%, 43%);
+	background-color: hsl(71, 73%, 43%);
+	box-shadow: 0.1px 0.2px 0.5px 0.3px  #548ca8;
+}
+.sub h3 {
+	color: whitesmoke ;
+	padding-bottom: 10px;
+	font-weight: 400;
+}
+.price {
+	font-weight: 700;
+	font-size: 30px;
+}
+span {
+	padding-left: 10px;
+	color: lightsteelblue;
+	font-size: 15px;
+}
+
+.why {
+	background-color: #57C4D3;
+	width: 50%;
+	height: 240px;
+	margin-left: 50%;
+	margin-top: -240px;
+	border-bottom-right-radius: 6px;
+}
+.why h3 {
+	color: white;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+ul {
+	padding-top: 10px;
+	padding-left: 30px;
+}
+li {
+	list-style-type: none;
+	color: hsl(204, 43%, 93%);
+}
 .attribution { 
 	font-size: 11px; 
 	text-align: center; 
+	padding-top: 40px;
 }
 .attribution a { 
 	color: hsl(228, 45%, 44%); 
+}
+@media only screen and (max-width:  500px) {
+	.main {
+		margin-left: 30px;
+		width: 300px;
+		height: auto;
+		margin-top: 30px;
+	}
+	.heading {
+		width: 260px;
+		height: 200px;
+		margin-top: 20px;
+		padding-bottom: 20px;
+	}
+	.heading h3, p {
+		font-size: 14px;
+	}
+	
+	.sub {
+		width: 290px;
+		padding-top: 10px;
+		
+		height: 180px;
+		border-bottom-left-radius: 0px;
+	}
+	.signUp {
+		padding: 10px 95px;
+		margin-bottom: 30px;
+	}
+	.why {
+		width: 320px;
+		margin-left: 0px;
+		margin-top: 0.1px;
+		height: auto;
+		padding-bottom: 20px;
+		border-bottom-left-radius: 6px;
+	}
+	ul {
+		font-size: 14px;
+	}
 }
